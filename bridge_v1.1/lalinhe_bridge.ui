@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1881</width>
+    <height>967</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="Main_stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>1641</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>50</y>
+        <width>871</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <layout class="QVBoxLayout" name="page1_vlayout">
+       <item>
+        <widget class="QWidget" name="page1_widget" native="true">
+         <property name="font">
+          <font>
+           <family>华光大标宋_CNKI</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTabWidget" name="page1_tabwidget">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>60</y>
+        <width>541</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>跨中截面</string>
+       </attribute>
+       <widget class="QLabel" name="pg1_tab_zhdm_lb">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>-1</y>
+          <width>521</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kz_strain_dc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kz_strain_pc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>190</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kz_strain_pl">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>190</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kz_strain_pr">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>190</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>跨北截面</string>
+       </attribute>
+       <widget class="QLabel" name="pg1_tab_zdm_lb">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>-1</y>
+          <width>521</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_dcl">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_dcr">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_pc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>190</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_dl">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_dr">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kr_strain_dc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华文新魏</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>跨南截面</string>
+       </attribute>
+       <widget class="QLabel" name="pg1_tab_ydm_lb">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>-1</y>
+          <width>521</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华光大标宋_CNKI</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kl_strain_dl">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华光大标宋_CNKI</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kl_strain_dr">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华光大标宋_CNKI</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kl_strain_dc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>120</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华光大标宋_CNKI</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="kl_strain_pc">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>190</y>
+          <width>10</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>华光大标宋_CNKI</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>99</x>
+        <y>490</y>
+        <width>901</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <layout class="QVBoxLayout" name="page1_vl_graph">
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="pg1_cn1">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>40</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>40</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>440</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn4">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>440</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>42</y>
+        <width>771</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>484</y>
+        <width>771</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn1_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>510</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn2_2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>510</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn3_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>730</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn4_2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>730</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>513</y>
+        <width>771</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>775</y>
+        <width>771</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_10">
+      <property name="geometry">
+       <rect>
+        <x>984</x>
+        <y>110</y>
+        <width>2</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_9">
+      <property name="geometry">
+       <rect>
+        <x>82</x>
+        <y>110</y>
+        <width>2</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_11">
+      <property name="geometry">
+       <rect>
+        <x>82</x>
+        <y>580</y>
+        <width>2</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_12">
+      <property name="geometry">
+       <rect>
+        <x>984</x>
+        <y>580</y>
+        <width>2</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn1_3">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>40</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn2_3">
+      <property name="geometry">
+       <rect>
+        <x>1540</x>
+        <y>40</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn3_3">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>730</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pg1_cn4_3">
+      <property name="geometry">
+       <rect>
+        <x>1540</x>
+        <y>730</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_13">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>42</y>
+        <width>441</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_14">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>775</y>
+        <width>441</width>
+        <height>2</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_15">
+      <property name="geometry">
+       <rect>
+        <x>1584</x>
+        <y>110</y>
+        <width>2</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_16">
+      <property name="geometry">
+       <rect>
+        <x>1012</x>
+        <y>110</y>
+        <width>2</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>1029</x>
+        <y>439</y>
+        <width>541</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>现场概况</string>
+      </property>
+      <widget class="QLabel" name="pg1_camlb">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>351</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华光大标宋_CNKI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>无视频接入</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>40</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华光大标宋_CNKI</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>桥长：400m</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>80</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华光大标宋_CNKI</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>环境温度：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>120</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华光大标宋_CNKI</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>运行状况：</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="strain_lb">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>340</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>1100</x>
+        <y>340</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>应变传感器</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="page1_selectsensorlb">
+      <property name="geometry">
+       <rect>
+        <x>1051</x>
+        <y>140</y>
+        <width>491</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>尚未选择传感器</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="page1_selectbridgelb">
+      <property name="geometry">
+       <rect>
+        <x>1050</x>
+        <y>100</y>
+        <width>501</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>尚未选择桥跨</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>pg1_cn2_3</zorder>
+     <zorder>pg1_cn1_3</zorder>
+     <zorder>page1_tabwidget</zorder>
+     <zorder>pg1_cn3_3</zorder>
+     <zorder>pg1_cn4_3</zorder>
+     <zorder>pg1_cn3</zorder>
+     <zorder>pg1_cn4</zorder>
+     <zorder>pg1_cn2</zorder>
+     <zorder>pg1_cn1</zorder>
+     <zorder>verticalLayoutWidget</zorder>
+     <zorder>verticalLayoutWidget_2</zorder>
+     <zorder>line</zorder>
+     <zorder>line_2</zorder>
+     <zorder>pg1_cn1_2</zorder>
+     <zorder>pg1_cn3_2</zorder>
+     <zorder>pg1_cn4_2</zorder>
+     <zorder>line_3</zorder>
+     <zorder>line_4</zorder>
+     <zorder>line_10</zorder>
+     <zorder>line_9</zorder>
+     <zorder>line_11</zorder>
+     <zorder>line_12</zorder>
+     <zorder>line_13</zorder>
+     <zorder>line_14</zorder>
+     <zorder>line_15</zorder>
+     <zorder>line_16</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>strain_lb</zorder>
+     <zorder>pg1_cn2_2</zorder>
+     <zorder>label_2</zorder>
+     <zorder>page1_selectsensorlb</zorder>
+     <zorder>page1_selectbridgelb</zorder>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QCalendarWidget" name="calendarWidget">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>70</y>
+        <width>381</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>60</y>
+        <width>781</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <layout class="QVBoxLayout" name="page2_vl_graph"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>390</y>
+        <width>781</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+     </widget>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>321</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="page2_displaybtn">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>440</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>显示数据</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cn1_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>40</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华光大标宋_CNKI</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <zorder>verticalLayoutWidget_3</zorder>
+     <zorder>verticalLayoutWidget_4</zorder>
+     <zorder>page2_displaybtn</zorder>
+     <zorder>cn1_2</zorder>
+     <zorder>treeWidget</zorder>
+     <zorder>calendarWidget</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>30</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="MainMenu_miBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>实时数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MainMenu_rtdBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>历史数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MainMenu_dnBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>320</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>结构诊断</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>1051</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>拉林河大桥智能在线监测系统</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cn1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cn2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cn3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cn4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>540</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>77</x>
+      <y>142</y>
+      <width>111</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>77</x>
+      <y>584</y>
+      <width>118</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>210</y>
+      <width>2</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>254</x>
+      <y>210</y>
+      <width>2</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="main_giflb">
+    <property name="geometry">
+     <rect>
+      <x>1670</x>
+      <y>10</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>30</y>
+      <width>331</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="digitCount">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>30</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光大标宋_CNKI</family>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="digitCount">
+     <number>10</number>
+    </property>
+   </widget>
+   <zorder>Main_stackedWidget</zorder>
+   <zorder>MainMenu_rtdBtn</zorder>
+   <zorder>label</zorder>
+   <zorder>cn1</zorder>
+   <zorder>cn2</zorder>
+   <zorder>MainMenu_miBtn</zorder>
+   <zorder>cn3</zorder>
+   <zorder>cn4</zorder>
+   <zorder>MainMenu_dnBtn</zorder>
+   <zorder>line_5</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_8</zorder>
+   <zorder>line_7</zorder>
+   <zorder>main_giflb</zorder>
+   <zorder>lcdNumber</zorder>
+   <zorder>lcdNumber_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1881</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>连接</string>
+    </property>
+    <addaction name="actionlink_DB"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>关于</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionlink_DB">
+   <property name="text">
+    <string>link DB</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
