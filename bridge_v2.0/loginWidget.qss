@@ -1,0 +1,40 @@
+QWidget#loginWidget
+{
+    border-image:url(./images/loginborder.png);
+}
+
+QLineEdit
+{
+
+    background-color:#FFFFFF;
+}
+
+QPushButton
+{
+    border-image:url(./images/btnblue.png);
+    color: rgb(214, 213, 213);
+}
+
+QPushButton:hover
+{
+    border-image:url(./images/btnlightpurple.png);
+}
+
+QPushButton:pressed
+{
+    border-image:url(./images/btnpurple.png);
+    
+}
+
+QLabel
+{
+    background:transparent;
+}
+
+QLineEdit
+ {
+     background-color: rgba(25,50,100,50%);
+     color: #eff0f1;
+     border: 1px solid white;
+     border-radius: 20px;
+ }

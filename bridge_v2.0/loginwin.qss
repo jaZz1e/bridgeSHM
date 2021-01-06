@@ -1,0 +1,10 @@
+QMainWindow
+{
+
+    border-image:url(./images/loginbg.jpg);
+}
+
+QLabel#bannerlabel
+{
+    color:rgb(214, 213, 213);
+}

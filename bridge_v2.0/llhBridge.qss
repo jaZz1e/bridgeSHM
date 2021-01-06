@@ -1,0 +1,111 @@
+QMainWindow
+{
+
+    border-image:url(./images/llhBackground.jpg);
+}
+
+QStackedWidget#mainStackedWidget
+{
+    background-color: rgba(25,50,100,80%);
+
+}
+
+QPushButton#realTimeBtn,#dataPreProcBtn,#consDiagBtn,#warnInfBtn,#userManBtn,#printRepBtn,#exitBtn
+{
+    border-image:url(./images/btnblue.png);
+    color: rgb(214, 213, 213);
+}
+
+QPushButton#realTimeBtn:hover,#dataPreProcBtn:hover,#consDiagBtn:hover,#warnInfBtn:hover,#userManBtn:hover,#printRepBtn:hover,#exitBtn:hover
+{
+    border-image:url(./images/btnlightpurple.png);
+}
+
+QPushButton#realTimeBtn:pressed,#dataPreProcBtn:pressed,#consDiagBtn:pressed,#warnInfBtn:pressed,#userManBtn:pressed,#printRepBtn:pressed,#exitBtn:pressed
+{
+    border-image:url(./images/btnpurple.png);
+    
+}
+
+QPushButton#threeDimBtn,#sensorDataBtn,#historyDataBtn
+{
+    border-image:url(./images/btntech1.png);
+    color: rgb(214, 213, 213);
+}
+QPushButton#threeDimBtn:hover,#sensorDataBtn:hover,#historyDataBtn:hover
+{
+    border-image:url(./images/btntech2.png);
+    color: rgb(214, 213, 213);
+}
+
+QLabel
+{
+    color:rgb(214, 213, 213);
+}
+
+QGroupBox
+{
+    color:rgb(214, 213, 213);
+}
+
+/* QWidget#disWidget
+{
+    background-color: rgba(214, 213, 213,80%);
+} */
+QTabWidget::pane
+{
+    /* background-color: rgba(25,50,100,90%); */
+    border: 1px solid rgb(255,255,255);
+}
+QTabBar::tab
+{
+    color:white;
+    background-color: rgba(54, 80, 167, 0.9);
+    border: 1px solid rgb(255,255,255);
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover 
+{
+    color:white;
+    background-color: rgba(0, 140, 255, 0.8);
+    border: 1px solid rgb(255,255,255);
+}
+
+QGroupBox#blockSelectGroupBox
+{
+    background-image:url(./images/bridgeView.png);
+    background-repeat:no-repeat; 
+    background-position:center; 
+    
+}
+
+/* QLabel#block1Label
+{
+    border-image:url(./images/sensor.png);
+} */
+
+GraphicsLayoutWidget
+{
+    background:transparent;
+
+}
+
+QLCDNumber
+{
+    color:white;
+}
+
+QLineEdit
+ {
+     background-color: rgba(25,50,100,80%);
+     color: #eff0f1;
+     border: 1px solid white;
+ }
+
+ QComboBox
+ {
+    color: #eff0f1;
+    background: transparent;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 20px;
+ }

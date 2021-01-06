@@ -1,0 +1,26 @@
+QMainWindow
+{
+    background-color: #31363b;
+}
+
+QLabel#selectBridgePicLabel
+{
+    border-image:url(./images/hlj_map_1.png);
+}
+
+QPushButton
+{
+    border-image:url(./images/btnblue.png);
+    color: rgb(214, 213, 213);
+}
+
+QPushButton:hover
+{
+    border-image:url(./images/btnlightpurple.png);
+}
+
+QPushButton:pressed
+{
+    border-image:url(./images/btnpurple.png);
+    
+}
